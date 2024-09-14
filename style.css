@@ -1,0 +1,85 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #e0f7fa, #fff3e0); /* Light gradient from teal to peach */
+    margin: 0 ;
+    padding: 20px;
+    }
+    h1{
+        text-align: center;
+        color: #000000; /* Warm, vibrant orange */
+        font-size: 35px;
+        margin-bottom: 20px;
+        font-style: italic;
+        font-variant: small-caps;
+    
+    }
+    form{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-variant: small-caps;
+    }
+    fieldset{
+        border: 2px solid #236b64; /* Teal border for contrast */
+        border-radius: 20px;
+        margin bottom: 20px;
+        padding: 20px;
+        background-color: #fafafa; /* Light gray background */
+    
+    }
+    
+    legend{
+        font-weight: bold;
+        font-size: 18px;
+        color: #000000; 
+    }
+    
+    label{
+        display: block;
+        margin-top: 15px;
+        font-size: 14px;
+        color: #37474f;
+    }
+    input ,textarea{
+        width: 100%;
+        margin-top: 5px;
+        padding: 15px;
+        border: 1px solid #26a69a;
+        border-radius: 5px;
+        box-sizing:border-box;
+        font-size: 15px;
+        transition:bodercolor 0.3s;
+        font-variant: small-caps;
+        
+    }
+    
+    input:focus, textarea:focus {
+        border-color:#00796b;
+        outline: none }
+    
+    button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    background-color: #3498db;
+    color: #ffffff; 
+    cursor: pointer;
+    background-color: #eda18a;
+    font-variant: small-caps;
+    transition:bodercolor 0.3s;
+    
+    
+        }
+    button:hover{
+     color:#8b0404;
+     font-variant: small-caps;
+    }
